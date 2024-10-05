@@ -29,7 +29,7 @@ export class StartGameComponent {
     if (isCorrect) this.answer = this.answer + '⯌';
     else
       this.lifeCount = this.lifeCount.slice(0, 0) + this.lifeCount.slice(0 + 1);
-    if (this.answer.length ==5) {
+    if (this.answer.length ==15) {
       this.router.navigate(['app-winner'],{ state: { win: true } });
     }
     if (this.lifeCount == '') this.router.navigate(['app-game-over']);

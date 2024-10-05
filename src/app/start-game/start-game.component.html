@@ -1,0 +1,9 @@
+<div class="background">
+  <div class="container">
+    <h1 class="life">{{ lifeCount }}</h1>
+    <h1>{{ answer }}</h1>
+    <button (click)="home()" class="home">Home</button>
+  </div>
+  <app-mathchalange (resultChanged)="onResultChanged($event)">
+  </app-mathchalange>
+</div>

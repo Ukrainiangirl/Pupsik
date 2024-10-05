@@ -1,0 +1,40 @@
+:host {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Полная высота окна */
+    margin: 0;
+  }
+  
+  button {
+    height: 20%;
+    width: 50%;
+    font-size: 50px;
+    background-color: #f0e68c;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #ffdab9;
+  }
+  
+  button:active {
+    background-color: #f0c68c;
+    transform: scale(0.95);
+  }
+
+  .background {
+    background-image: url('background.png'); /* Замените на путь к вашему изображению */
+    background-size: cover; /* Чтобы изображение заполняло весь контейнер */
+    background-position: center; /* Центрирование изображения */
+    height: 100vh; /* Высота контейнера на весь экран */
+    display: flex; /* Чтобы содержимое выстраивалось в строку */
+    flex-direction: column; /* Вертикальное выстраивание */
+    align-items: center; /* Центрирование содержимого по горизонтали */
+    justify-content: flex-start; /* Выравнивание по верхнему краю */
+    width: 100%;
+}

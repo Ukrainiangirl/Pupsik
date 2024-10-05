@@ -1,0 +1,17 @@
+<div class="timer-container">
+  <div
+    class="timer-bar"
+    [ngStyle]="{ width: (countdown / 10) * 100 + '%' }"
+  ></div>
+</div>
+
+<div class="container">
+  <p>{{ a }} * {{ b }} =</p>
+  <input
+    type="text"
+    [(ngModel)]="userInput"
+    (blur)="result()"
+    (keydown.enter)="result()"
+    autofocus
+  />
+</div>

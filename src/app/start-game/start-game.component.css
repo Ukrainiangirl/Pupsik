@@ -1,0 +1,87 @@
+.home {
+  color: brown;
+  border-radius: 8px;
+  border: 3px solid brown;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  background-color: brown;
+  border-color: red;
+  color: white;
+}
+
+.home:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: red;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  margin: 20px;
+}
+
+.red-circle {
+  background-color: lightcoral;
+  border: 5px solid red;
+}
+.green-circle {
+  background-color: lightgreen;
+  border: 5px solid green;
+}
+
+.check {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.circules {
+  position: absolute;
+  top: 200px;
+}
+
+.circle-container {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+
+app-circle {
+  margin: 0 0px;
+}
+
+.life {
+  color: #ffd900;
+  margin: 0;
+  background-color: transparent;
+  border: 0;
+}
+
+h1 {
+  font-size: 70px;
+  color: red;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  border: 3px solid brown;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  padding: 10px;
+}
+
+h1,
+button {
+  margin: 0;
+}
